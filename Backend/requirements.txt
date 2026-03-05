@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+sqlalchemy==2.0.36
+pyodbc==5.2.0
+python-dotenv==1.0.1
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.12
+numpy==1.26.4
+Pillow==11.0.0
+
+# FAISS — índice vectorial para matching facial 1:N (100k+ personas)
+faiss-cpu
+
+# InsightFace y dependencias de reconocimiento facial
+# Instalar manualmente si es necesario:
+#   pip install insightface onnxruntime opencv-python-headless
+insightface==0.7.3
+onnxruntime==1.19.2
+opencv-python-headless==4.10.0.84

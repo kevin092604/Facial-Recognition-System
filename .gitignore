@@ -1,0 +1,62 @@
+# ===== Frontend (Next.js) =====
+
+# dependencies
+Frontend/node_modules/
+
+# next.js
+Frontend/.next/
+Frontend/out/
+
+# production
+Frontend/build/
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel
+
+# ===== Backend (Python / FastAPI) =====
+
+# virtual environment
+Backend/venv/
+
+# byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# InsightFace models cache
+Backend/models/
+
+# ===== Shared =====
+
+# env files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
