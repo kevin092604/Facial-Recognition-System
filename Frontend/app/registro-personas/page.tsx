@@ -17,7 +17,7 @@ export default function RegistroPersonasPage() {
   // Campos persona
   const [nombre, setNombre] = useState("")
   const [apellido, setApellido] = useState("")
-  const [telefono, setTelefono] = useState("")
+const [telefono, setTelefono] = useState("")
   const [password, setPassword] = useState("")
 
   // Campos específicos
@@ -55,7 +55,7 @@ export default function RegistroPersonasPage() {
         body: JSON.stringify({
           Nombre: nombre.trim(),
           Apellido: apellido.trim(),
-          Telefono: telefono.trim() || null,
+Telefono: telefono.trim() || null,
           Password: tipo === "empleado" ? password : null,
         }),
       })

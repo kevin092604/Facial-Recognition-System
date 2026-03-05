@@ -72,7 +72,7 @@ def create_persona(body: PersonaCreate, db: Session = Depends(get_db)):
     db_persona = Persona(
         Nombre=body.Nombre,
         Apellido=body.Apellido,
-        Telefono=body.Telefono,
+Telefono=body.Telefono,
         Password=hashed,
     )
     db.add(db_persona)
